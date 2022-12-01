@@ -1,0 +1,26 @@
+{
+  "name": "shehzad-cal",
+  "version": "1.0.0",
+  "description": "my calculator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shehza-d/CLI-Calculator.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "shehzad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shehza-d/CLI-Calculator/issues"
+  },
+  "homepage": "https://github.com/shehza-d/CLI-Calculator#readme",
+  "dependencies": {
+    "chalk": "^5.1.2"
+  }
+}
