@@ -21,6 +21,16 @@
   },
   "homepage": "https://github.com/shehza-d/CLI-Calculator#readme",
   "dependencies": {
-    "chalk": "^5.1.2"
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/figlet": "^1.5.5",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.10"
   }
 }

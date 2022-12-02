@@ -1,14 +1,12 @@
-#!usr/bin/env/ node
+// import chalk from 'chalk';
 import figlet from 'figlet';
-import chalk from 'chalk';
-import chalkAnimation from 'chalk-animation';
-import inquirer from 'inquirer';
-// import chalk from 'chalk';
-// import chalk from 'chalk';
-
-
-
-
+figlet("Shehzad", (err, data) => {
+    if (err) {
+        console.log('Something went wrong...', err);
+        return;
+    }
+    console.log(data);
+});
 console.log(`
 _____________________
 |  _________________  |
@@ -25,10 +23,3 @@ _____________________
 | |___|___|___| |___| |
 |_____________________|
 `);
-figlet("Shehzad", (err, data) => {
-    if (err) {
-        console.log('Something went wrong...',err);
-        return;
-    }
-    console.log(data)
-})
